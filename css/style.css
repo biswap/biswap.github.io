@@ -1,0 +1,129 @@
+/*!
+ * Start Bootstrap - Logo Nav (https://startbootstrap.com/template-overviews/logo-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logo-nav/blob/master/LICENSE)
+ */
+html {
+  height: 100%;
+}
+body {
+  padding-top: 54px;
+  font-family: 'Lato';
+  background-color: #BFC9CA;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Catamaran';
+  font-weight: 800 !important;
+}
+
+section {
+  padding: 2rem 0 2rem 0;
+  -webkit-box-shadow:0px 5px 15px #1c1c1c;
+  -moz-box-shadow:0px 5px 15px #1c1c1c;
+  box-shadow:0px 5px 15px #1c1c1c;
+}
+
+.navbar-custom {
+  /*padding-top: 1rem;
+  padding-bottom: 1rem;*/
+  background-color: #5E4485; /*rgba(0, 0, 0, 0.7);*/
+}
+/*
+.navbar-custom .navbar-brand {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.navbar-custom .active a, .navbar-custom .active a:focus, .navbar-custom .active a:hover {
+  color: #FFF;
+  background-color: #5E4485;
+
+}
+.navbar-custom .active, li a {
+  color: #D5D5D5;
+}
+*/
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+footer {
+  width: 100%;
+  background-color: #5E4485;
+  padding: 4%;
+  color: #FFF;
+}
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  color: #FFF;
+}
+.fa:hover {
+  color: #D5D5D5;
+  text-decoration: none;
+}
+.ai {
+  padding: 15px;
+  font-size: 25px;
+  color: #FFF;
+}
+.ai:hover {
+  color: #D5D5D5;
+  text-decoration: none;
+}
+@media (max-width: 900px) {
+  .fa {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .ai {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+  #icon {
+    max-width: 150px;
+  }
+  h2 {
+    font-size: 1.7em;
+  }
+}
+a {
+  color: #5E4485;
+}
+a:hover {
+  color: #D5D5D5;
+  text-decoration: none;
+}
+a[href$=".pdf"] {
+  padding-right: 20px;
+  background: transparent url("../img/icon_pdf.gif") no-repeat center right;
+}
+
+/*THIS CODE PUTS A PADLOCK NEXT TO DOI LINKS */
+a[href*="https://dx.doi.org"] {
+  padding-right: 20px;
+  background: transparent url("../img/padlock.png") no-repeat center right;
+}
+ul li {
+  line-height: 27px;
+  margin-top: 5px;
+  color: #000000; /*#EDF0F5;*/
+  text-align:justify;
+}
