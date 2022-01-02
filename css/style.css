@@ -140,4 +140,9 @@ ul li {
   text-align:justify;
 }
 
+.img-thumbnail {
+    border: 0 none;
+    box-shadow: none;
+}
+
 
