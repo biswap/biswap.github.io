@@ -39,7 +39,7 @@ section {
 .navbar-custom {
   /*padding-top: 1rem;
   padding-bottom: 1rem;*/
-  background-color: #12279e; /* #5E4485; /*rgba(0, 0, 0, 0.7);*/
+  background-color: #124191; /* <- Nokia; #12279e; (Samsung) #5E4485; /*rgba(0, 0, 0, 0.7);*/
 }
 /*
 .navbar-custom .navbar-brand {
@@ -73,7 +73,7 @@ section {
 
 footer {
   width: 100%;
-  background-color: #12279e;
+  background-color: #124191;
   padding: 4%;
   color: #FFF;
 }
@@ -117,7 +117,7 @@ footer {
   }
 }
 a {
-  color: #12279e;
+  color: #124191;
 }
 a:hover {
   color: #D5D5D5;
